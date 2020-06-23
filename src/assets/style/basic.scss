@@ -1,0 +1,67 @@
+/// Brand Color
+$color-primary: #2f86f6; // 品牌色
+
+/// Text Color
+$color-text-base: #111a34; // 重要信息，如一级标题
+$color-text-base-inverse: #fff;
+$color-text-body: #41485d; // 普通信息，如正文主要内容
+$color-text-minor: #666f83; // 次要信息，如利益点、摘要
+$color-text-caption: #858b9c; // 辅助信息，如列表内容描述
+$color-text-disabled: #c5cad5; // 禁用状态
+$color-text-placeholder: #c5cad5; // 默认提示输入或占位
+$color-text-highlight: color-primary; // 高亮状态
+$color-text-warn: #ff7d41; // 利益点，警告提示
+$color-text-error: #ff5257; // 强提示报错
+$color-text-link: #5878b4; // 文字链接
+
+
+/// Border & Background Color
+$color-border-base: #e2e4ea; // 条目边框
+$color-border-element: #c5cad5; // 元素边框，如按钮
+$color-bg-base: #f9fafb; // 元素，容器背景
+$color-bg-inverse: #fff;
+$color-bg-disabled: #e2e4ea; // 禁用元素背景
+$color-bg-tap: #f9fafb; // 条目点击态
+$color-mask: rgba(37, 38, 45, .7); // 弹窗蒙层
+
+/// Text Size
+$font-heading-large: 60rpx;
+$font-heading-medium: 52rpx;
+$font-heading-normal: 44rpx;
+$font-caption-large: 36rpx;
+$font-caption-normal: 32rpx;
+$font-body-large: 28rpx;
+$font-body-normal: 26rpx;
+$font-minor-large: 24rpx;
+$font-minor-normal: 20rpx;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+
+/// Radius Size
+$radius-normal: 4rpx;
+$radius-circle: 50%;
+
+/// Border Size
+$border-width-base: 2rpx;
+
+/// Spacing size
+$h-gap-xs: 8rpx;
+$h-gap-sm: 12rpx;
+$h-gap-md: 20rpx;
+$h-gap-lg: 32rpx;
+$h-gap-sl: 40rpx;
+
+$v-gap-xs: 8rpx;
+$v-gap-sm: 12rpx;
+$v-gap-md: 20rpx;
+$v-gap-lg: 32rpx;
+$v-gap-sl: 40rpx;
+
+/// Transition
+$ease-in-out-quint: cubic-bezier(.86, 0, .07, 1);
+
+/// Opacity
+$opacity-disabled: .3; // opacity of disabled button, switch, agree

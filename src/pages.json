@@ -1,0 +1,25 @@
+{
+	"pages": [{
+		"path": "pages/home/index"
+	}, {
+		"path": "pages/question/collect"
+	}, {
+		"path": "pages/rank/index"
+	}, {
+		"path": "pages/question/result"
+	}, {
+		"path": "pages/target/index"
+	}, {
+		"path": "pages/question/index"
+	}, {
+		"path": "pages/subject/index"
+	}],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	}
+}

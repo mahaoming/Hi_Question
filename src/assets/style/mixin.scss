@@ -1,0 +1,176 @@
+@mixin absolute-pos($t: 0, $r: 0, $b: 0, $l: 0) {
+    top: $t;
+    right: $r;
+    bottom: $b;
+    left: $l;
+}
+
+@mixin fixed-pos($t: 0, $r: 0, $b: 0, $l: 0) {
+    @include absolute-pos($t, $r, $b, $l);
+}
+
+@mixin clearfix() {
+    &:after {
+        display: table;
+        clear: both;
+
+        content: '';
+    }
+}
+
+@mixin hairline($direction: 'all', $color: $color-border-base, $radius: 0, $size: $border-width-base) {
+    @if ($direction=='top') {
+        &::after {
+            top: 0;
+            right: auto;
+            bottom: auto;
+            left: 0;
+
+            border-top: solid $size $color;
+            width: 100%;
+
+            transform-origin: 50% 0;
+
+            @include hairline-common($direction);
+        }
+    }
+
+    @else if ($direction=='bottom') {
+        &::after {
+            top: auto;
+            right: auto;
+            bottom: 0;
+            left: 0;
+
+            border-bottom: solid $size $color;
+            width: 100%;
+
+            transform-origin: 50% 100%;
+
+            @include hairline-common($direction);
+        }
+    }
+
+    @else if ($direction=='left') {
+        &::after {
+            top: auto;
+            right: auto;
+            bottom: 0;
+            left: 0;
+
+            border-left: solid $size $color;
+            width: 100%;
+
+            transform-origin: 50% 100%;
+
+            @include hairline-common($direction);
+        }
+    }
+
+    @else if ($direction=='right') {
+        &::before {
+            top: 0;
+            right: 0;
+            bottom: auto;
+            left: auto;
+
+            border-right: solid $size $color;
+            height: 100%;
+
+            transform-origin: 100% 50%;
+
+            @include hairline-common($direction);
+        }
+    }
+
+    @else {
+        &::after {
+            position: absolute;
+            top: 0;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            z-index: 2;
+
+            box-sizing: border-box;
+            border: solid $size $color;
+            width: 200%;
+            height: 200%;
+
+            transform: scale(.5);
+            transform-origin: 0 0;
+
+            content: '';
+
+            @if $radius=='unit' {
+                border-radius: $radius * 2;
+            }
+
+            @else {
+                border-radius: 'calc(#{$radius} * 2)';
+            }
+        }
+    }
+}
+
+@mixin hairline-common($direction) {
+    position: absolute;
+    z-index: 2;
+
+    transform-origin: 100% 50%;
+
+    content: '';
+
+    @if ($direction=='top') {
+        transform: scaleY(.5) translateY(-100%);
+    }
+
+    @else if ($direction=='top') {
+        transform: scaleY(.5) translateY(100%);
+    }
+
+    @else if($direction=='left') {
+        transform: scaleX(.5) translateX(-100%);
+    }
+
+    @else if($direction=='right') {
+        transform: scaleX(.5) translateX(100%);
+    }
+}
+
+@mixin remove-hairline($direction: 'all') {
+    @if($direction=='top') {
+        &::after {
+            display: none;
+        }
+    }
+
+    @else if($direction=='bottom') {
+        &::after {
+            display: none;
+        }
+    }
+
+    @else if($direction=='left') {
+        &::after {
+            display: none;
+        }
+    }
+
+    @else if($direction=='right') {
+        &::after {
+            display: none;
+        }
+    }
+
+    @else {
+        &::after {
+            display: none;
+        }
+    }
+}
+
+@mixin vertical-height($height) {
+    height: $height;
+    line-height: $height;
+}
