@@ -1,40 +1,56 @@
-# Hi_Question
+# 新拟物 答题小程序
 
-#### 介绍
-答题 | 考研 | 测试 | 排行 微信小程序
-(目前仅适配开放微信小程序, 后续适配其他平台小程序)
+## 介绍
 
-扫描下面二维码可体验👇
+- 新拟物风格
+- 主要面向答题,考研,测试,排行
+- 无须服务器, 无须域名
 
-#### 软件架构
-软件架构说明
+### 微信小程序
 
+> 目前仅适配开放微信小程序, 后续适配其他平台小程序
 
-#### 安装教程
+### 扫描下面二维码可体验 👇
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![小程序图片]
 
-#### 使用说明
+## 软件架构
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+- 后端: 知晓云(https://cloud.minapp.com/)
+- 前端: uni-app(https://uniapp.dcloud.io/)
 
-#### 参与贡献
+## 应用截图
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## 安装教程
 
+1. 先注册[微信小程序](https://mp.weixin.qq.com/), 将项目中 src/manifest.json 的 appid 更改自己的 appid(在[微信后台](https://mp.weixin.qq.com/)开发/开发设置中)
+2. 在[知晓云](https://cloud.minapp.com/dashboard)注册账号后, 按指引流程接入后获取 key, 替换项目 App.vue 中 wx.BaaS.init("xxxxxxxxxxxxx")的位置;
+   > 为什么没有用云开发, 单纯是因为知晓云的后台操作起来方便些, 当然个人觉得目前云开发功能在微信小程序上是比知晓云强大
+3. 导入数据结构即可如下图操作
 
-#### 码云特技
+## 使用说明
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+### 第一步: node 安装
+
+> 用于编译 javascript 代码
+> [node 安装地址](https://nodejs.org/zh-cn/download/)
+>
+> > - windows 选择 msi
+> > - mac 选择 pkg
+> >   > 一键安装环境啥的最适合我了
+
+### 第二步: 执行编译命令
+
+> 在项目目录下执行
+>
+> > `npm install -g @vue/cli & npm run dev:mp-weixin`
+
+## 懒人模式
+
+> 这个就是让小桃帮你部署, 一条裙子 👗 的费用部署(199), 当然如果后面有新版本更新的话也有优先推送, 有少量需求也可以满足下.
+
+![名片](https://gitee.com/github-31064550/Hi_Question/blob/master/screenshots/image6.png)
+
+## 最后
+
+> 如果这个项目对你学习, 工作或是其他需求有帮助的, 点个赞呗 💃💃💃

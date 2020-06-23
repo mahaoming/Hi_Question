@@ -1,0 +1,1 @@
+<text data-event-opts="{{[['tap',[['$emit',['click','$event']]]]]}}" class="{{['hi-icon','hi-icon-'+name,name,size]}}" style="{{'color:'+(color)+';'}}" bindtap="__e"></text>

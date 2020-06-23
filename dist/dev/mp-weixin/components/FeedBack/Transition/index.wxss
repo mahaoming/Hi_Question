@@ -1,0 +1,283 @@
+.hi-fade-enter {
+  opacity: 0.01;
+}
+.hi-fade-active {
+  -webkit-transition: opacity 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: opacity 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  opacity: 1;
+}
+.hi-fade-leave {
+  -webkit-transition: opacity 250ms linear;
+  transition: opacity 250ms linear;
+  opacity: 0.01;
+}
+.hi-bounce-enter {
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+}
+.hi-bounce-active {
+  -webkit-animation: bounce-in 300ms linear;
+          animation: bounce-in 300ms linear;
+}
+.hi-bounce-leave {
+  -webkit-animation: zoom-out 250ms linear;
+          animation: zoom-out 250ms linear;
+}
+.hi-zoom-enter {
+  opacity: 0.01;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+}
+.hi-zoom-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-zoom-leave {
+  opacity: 0.01;
+  -webkit-transform: scale(0.75);
+          transform: scale(0.75);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-punch-enter {
+  opacity: 0.01;
+  -webkit-transform: scale(1.35);
+          transform: scale(1.35);
+}
+.hi-punch-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-punch-leave {
+  opacity: 0.01;
+  -webkit-transform: scale(1.35);
+          transform: scale(1.35);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-slide-up-enter {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+}
+.hi-slide-up-active {
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-up-leave {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-right-enter {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+.hi-slide-right-active {
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-right-leave {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-down-enter {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+}
+.hi-slide-down-active {
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-down-leave {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-left-enter {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+.hi-slide-left-active {
+  -webkit-transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 300ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-slide-left-leave {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+  -webkit-transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition: transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1), -webkit-transform 250ms cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.hi-fade-up-enter {
+  opacity: 0.01;
+  -webkit-transform: translate3d(0, 20%, 0);
+          transform: translate3d(0, 20%, 0);
+}
+.hi-fade-up-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-fade-up-leave {
+  opacity: 0.01;
+  -webkit-transform: translate3d(0, 20%, 0);
+          transform: translate3d(0, 20%, 0);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-fade-right-enter {
+  opacity: 0.01;
+  -webkit-transform: translate3d(-20%, 0, 0);
+          transform: translate3d(-20%, 0, 0);
+}
+.hi-fade-right-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-fade-right-leave {
+  opacity: 0.01;
+  -webkit-transform: translate3d(-20%, 0, 0);
+          transform: translate3d(-20%, 0, 0);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-fade-down-enter {
+  opacity: 0.01;
+  -webkit-transform: translate3d(0, -20%, 0);
+          transform: translate3d(0, -20%, 0);
+}
+.hi-fade-down-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-fade-down-leave {
+  opacity: 0.01;
+  -webkit-transform: translate3d(0, -20%, 0);
+          transform: translate3d(0, -20%, 0);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-fade-left-enter {
+  opacity: 0.01;
+  -webkit-transform: translate3d(20%, 0, 0);
+          transform: translate3d(20%, 0, 0);
+}
+.hi-fade-left-active {
+  -webkit-transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 300ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-fade-left-leave {
+  opacity: 0.01;
+  -webkit-transform: translate3d(20%, 0, 0);
+          transform: translate3d(20%, 0, 0);
+  -webkit-transition: all 250ms linear;
+  transition: all 250ms linear;
+}
+.hi-fly-active {
+  -webkit-animation: fly-in 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+          animation: fly-in 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.hi-fly-leave {
+  -webkit-animation: zoom-out 250ms;
+          animation: zoom-out 250ms;
+}
+@-webkit-keyframes bounce-in {
+0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@keyframes bounce-in {
+0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+}
+45% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+}
+80% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+}
+100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+}
+@-webkit-keyframes zoom-out {
+to {
+    opacity: 0.01;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+}
+}
+@keyframes zoom-out {
+to {
+    opacity: 0.01;
+    -webkit-transform: scale(0.75);
+            transform: scale(0.75);
+}
+}
+@-webkit-keyframes fly-in {
+0% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.5) translate3d(0, 50px, 0);
+            transform: scale(0.5) translate3d(0, 50px, 0);
+}
+45% {
+    opacity: 1;
+    -webkit-transform: scale(1.05) translate3d(0, -50px, 0);
+            transform: scale(1.05) translate3d(0, -50px, 0);
+}
+100% {
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+}
+}
+@keyframes fly-in {
+0% {
+    opacity: 0.5;
+    -webkit-transform: scale(0.5) translate3d(0, 50px, 0);
+            transform: scale(0.5) translate3d(0, 50px, 0);
+}
+45% {
+    opacity: 1;
+    -webkit-transform: scale(1.05) translate3d(0, -50px, 0);
+            transform: scale(1.05) translate3d(0, -50px, 0);
+}
+100% {
+    -webkit-transform: scale(1) translate3d(0, 0, 0);
+            transform: scale(1) translate3d(0, 0, 0);
+}
+}

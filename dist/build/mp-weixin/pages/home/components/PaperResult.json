@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "read-more": "/components/ReadMore/ReadMore"
+  }
+}

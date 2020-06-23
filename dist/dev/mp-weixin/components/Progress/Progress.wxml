@@ -1,0 +1,1 @@
+<view><block wx:if="{{isShow}}"><view class="neumorphic-progress"><view class="neumorphic-progress__back"></view><view class="neumorphic-progress__line"></view></view></block><view class="{{[isShow?'mask-wrap':'']}}"><slot></slot></view></view>

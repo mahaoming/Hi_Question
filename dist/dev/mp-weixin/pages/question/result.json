@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "question-list": "/pages/question/components/QuestionList",
+    "v-count-to": "/components/CountTo/CountTo"
+  }
+}

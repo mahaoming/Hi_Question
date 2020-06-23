@@ -1,0 +1,24 @@
+.data-v-05786225:export {
+  blue: #4A6DF3;
+  gray: #AAAAAA;
+  green: #30B08F;
+  light-blue: #4674E5;
+  panGreen: #30B08F;
+  pink: #E96169;
+  red: #C03639;
+  text-df: 28rpx;
+  text-lg: 32rpx;
+  text-sl: 80rpx;
+  text-sm: 24rpx;
+  text-xl: 36rpx;
+  text-xs: 20rpx;
+  text-xsl: 120rpx;
+  text-xxl: 44rpx;
+  tiffany: #56CCF2;
+  yellow: #F2CF63;
+}
+.count-num.data-v-05786225 {
+  display: inline-block;
+  font-family: "proximanova";
+  text-align: center;
+}

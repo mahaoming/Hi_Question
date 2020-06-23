@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/question/collect",
+    "pages/rank/index",
+    "pages/question/result",
+    "pages/target/index",
+    "pages/question/index",
+    "pages/subject/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "usingComponents": {
+    "navbar": "/components/Navbar/Navbar"
+  },
+  "sitemapLocation": "sitemap63.json"
+}

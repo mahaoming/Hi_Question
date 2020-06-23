@@ -1,0 +1,117 @@
+.home-wrap {
+  background: #E0E5EC;
+}
+.home-wrap .user-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 50rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home-wrap .user-wrap text {
+  display: block;
+}
+.home-wrap .user-wrap .nickname {
+  font-size: 44rpx;
+  font-weight: 800;
+}
+.home-wrap .user-wrap .avatar {
+  border-radius: 50px;
+  width: 100rpx;
+  height: 100rpx;
+  background: url(https://s1.ax1x.com/2020/03/31/GMG02j.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: -5px 5px 10px #bec3c9, 5px -5px 10px #ffffff;
+}
+.home-wrap .target-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-top: 40rpx;
+  border-radius: 10px;
+  padding: 0 30rpx;
+  width: 100%;
+  height: 120rpx;
+  background: #e0e5ec;
+  box-shadow: -4px 4px 8px #bec3c9, 4px -4px 8px #ffffff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.home-wrap .target-wrap--icon {
+  border-radius: 50px;
+  width: 60rpx;
+  height: 60rpx;
+  background: -webkit-linear-gradient(225deg, #f0f5fd, #caced4);
+  background: linear-gradient(225deg, #f0f5fd, #caced4);
+  box-shadow: -3px 3px 5px #bec3c9, 3px -3px 5px #ffffff;
+}
+.home-wrap .target-wrap--text {
+  font-size: 28rpx;
+  color: #AAAAAA;
+}
+.home-wrap .target-wrap .remain {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 32rpx;
+  letter-spacing: 1rpx;
+  color: #AAAAAA;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.home-wrap .target-wrap .remain .day {
+  margin: 0 10rpx;
+  border-radius: 16rpx;
+  padding: 10rpx;
+  text-align: center;
+  letter-spacing: 2rpx;
+  background: #e0e5ec;
+  box-shadow: 1px 1px 2px #bec3c9, -1px -1px 2px #ffffff;
+}
+.home-wrap .action-wrap {
+  display: grid;
+  margin-top: 60rpx;
+  -webkit-column-gap: 30rpx;
+          column-gap: 30rpx;
+  grid-template-columns: repeat(3, 1fr);
+}
+.home-wrap .action-wrap--item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  border-radius: 10px;
+  height: 200rpx;
+  background: #e0e5ec;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0.2), inset 7px 7px 15px rgba(55, 84, 170, 0), inset -7px -7px 20px rgba(255, 255, 255, 0), 0px 0px 4px rgba(255, 255, 255, 0) !important;
+  -webkit-transition: box-shadow 0.25s ease !important;
+  transition: box-shadow 0.25s ease !important;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.home-wrap .action-wrap--item image {
+  width: 100rpx;
+  opacity: 0.85;
+}
+.home-wrap .action-wrap--item:active {
+  background: #e0e5ec;
+  box-shadow: 7px 7px 15px rgba(55, 84, 170, 0.15), -7px -7px 20px white, inset 0px 0px 4px rgba(255, 255, 255, 0), inset 7px 7px 15px rgba(55, 84, 170, 0.15), inset -7px -7px 20px white, 0px 0px 4px rgba(255, 255, 255, 0.2) !important;
+}

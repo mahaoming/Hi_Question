@@ -1,0 +1,105 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.9.2",
+	"appid": "wxb48cae1f52a6d390",
+	"projectname": "uni-question",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "pages/question/result",
+					"pathName": "pages/question/result",
+					"query": "resultId=5eeb684634979519b503fdd2&paperId=5e8c286260ecde125828b0b3&title=徐涛优题库",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/question/index",
+					"pathName": "pages/question/index",
+					"query": "id=5e8c286260ecde125828b0b3&title=徐涛优题库&timing=3600",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/rank/index",
+					"pathName": "pages/rank/index",
+					"query": "id=5e8c286260ecde125828b0b3&title=徐涛优题库&timing=3600",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/target/index",
+					"pathName": "pages/target/index",
+					"query": "id=5e8c286260ecde125828b0b3&title=徐涛优题库&timing=3600",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/question/collect",
+					"pathName": "pages/question/collect",
+					"query": "id=5e8c286260ecde125828b0b3&title=徐涛优题库&timing=3600",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/target/index",
+					"pathName": "pages/target/index",
+					"query": "id=5e8c286260ecde125828b0b3&title=徐涛优题库&timing=3600",
+					"scene": null
+				}
+			]
+		}
+	}
+}

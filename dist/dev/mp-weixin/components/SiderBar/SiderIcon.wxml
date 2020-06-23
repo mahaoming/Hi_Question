@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['setIconActive',['$event']]]]]}}" class="{{['eum-nav-icon _div',isActive?'active':'']}}" bindtap="__e"><text></text><text></text><text></text></view>

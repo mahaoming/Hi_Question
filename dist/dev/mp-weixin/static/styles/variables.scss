@@ -1,0 +1,44 @@
+// base color
+$blue : #4A6DF3;
+$light-blue : #4674E5;
+$red : #C03639;
+$pink : #E96169;
+$green : #30B08F;
+$tiffany : #56CCF2;
+$yellow : #F2CF63;
+$panGreen : #30B08F;
+$gray : #AAAAAA;
+$theme-bg : #E0E5EC;
+
+// base text size
+$text-xs : 20rpx;
+$text-sm : 24rpx;
+$text-df : 28rpx;
+$text-lg : 32rpx;
+$text-xl : 36rpx;
+$text-xxl : 44rpx;
+$text-sl : 80rpx;
+$text-xsl : 120rpx;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  // color
+  blue : $blue;
+  gray : $gray;
+  green : $green;
+  light-blue : $light-blue;
+  panGreen : $panGreen;
+  pink : $pink;
+  red : $red;
+  text-df : $text-df;
+  text-lg : $text-lg;
+  text-sl : $text-sl;
+  text-sm : $text-sm;
+  text-xl : $text-xl;
+  text-xs : $text-xs;
+  text-xsl : $text-xsl;
+  text-xxl : $text-xxl;
+  tiffany : $tiffany;
+  yellow : $yellow;
+}

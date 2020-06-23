@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;;;AAAA;;AAEA;;AACA;;;;AACAA,UAAU,CAACC,aAAD,CAAV,C","file":"pages/record/list.js","sourcesContent":["import 'uni-pages';\n\nimport Vue from 'vue'            \nimport Page from './pages/record/list.vue'\ncreatePage(Page)"],"sourceRoot":""}
