@@ -1,16 +1,25 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		}
-	],
+	"pages": [{
+		"path": "pages/home/index"
+	}, {
+		"path": "pages/question/collect"
+	}, {
+		"path": "pages/rank/index"
+	}, {
+		"path": "pages/question/result"
+	}, {
+		"path": "pages/target/index"
+	}, {
+		"path": "pages/question/index"
+	}, {
+		"path": "pages/subject/index"
+	}],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationStyle": "custom"
+	},
+	"permission": {
+		"scope.userLocation": {
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
 	}
 }

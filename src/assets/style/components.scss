@@ -1,0 +1,106 @@
+/// button
+$button-primary-fill: $color-primary;
+$button-default-fill: $color-bg-inverse;
+$button-disabled-fill: $color-bg-disabled;
+$button-warning-fill: $color-text-error;
+
+$button-primary-active-fill: #2a78dc;
+$button-default-active-fill: $color-bg-base;
+$button-warning-active-fill: #e9424f;
+
+$button-primary-plain-active-fill: #eaf2fe;
+$button-default-plain-active-fill: $color-bg-base;
+$button-warning-plain-active-fill: #fac3c6;
+
+$button-default-color: $color-text-body;
+$button-primary-color: $color-text-base-inverse;
+$button-disabled-color: $color-text-base-inverse;
+$button-warning-color: $color-text-base-inverse;
+
+$button-default-plain-color: $button-default-color;
+$button-primary-plain-color: $button-primary-fill;
+$button-warning-plain-color: $button-warning-fill;
+$button-disabled-plain-color: $color-text-disabled;
+
+$button-height: 100rpx;
+$button-font-size: $font-caption-large;
+$button-font-weight: $font-weight-medium;
+
+$button-small-height: 64rpx;
+$button-small-font-size: $font-body-large;
+
+$button-radius: $radius-normal;
+
+/// icon
+$icon-size-xss: 16rpx;
+$icon-size-xs: 20rpx;
+$icon-size-sm: 24rpx;
+$icon-size-md: 32rpx;
+$icon-size-lg: 42rpx;
+
+/// result-page
+$result-page-image-size: 260rpx;
+$result-page-title-font-size: $font-caption-normal;
+$result-page-describe-font-size: $font-body-large;
+$result-page-title-color: $color-text-base;
+$result-page-describe-color: $color-text-caption;
+
+/// popup
+$popup-title-bar-bg: $color-bg-inverse;
+$popup-title-bar-height: 120px;
+$popup-title-bar-height-large: 180px;
+$popup-title-bar-radius: 8px;
+$popup-title-bar-radius-large: 40px;
+$popup-title-bar-font-size-button: $font-caption-large;
+$popup-title-bar-font-weight-button: $font-weight-medium;
+$popup-title-bar-font-size-title: 40px;
+$popup-title-bar-font-size-describe: $font-body-large;
+$popup-title-bar-color-title: $color-text-base;
+$popup-title-bar-color-describe: $color-text-caption;
+$popup-title-bar-color-button-left: $color-text-minor;
+$popup-title-bar-color-button-right: $color-text-highlight;
+$popup-mask-bg: $color-mask;
+$popup-zindex: 1000;
+
+
+/// action-bar
+$action-bar-width: 100%;
+$action-bar-height: 100px;
+$action-bar-margin-v: 0;
+$action-bar-margin-h: 1.5%;
+$action-bar-padding-v: $v-gap-md;
+$action-bar-padding-h: $h-gap-lg;
+$action-bar-button-gap: 22rpx;
+$action-bar-slot-height: $button-height;
+$action-bar-zindex: 100;
+
+/// tabs
+$tab-font-size: $font-body-large;
+$tab-font-weight: $font-weight-medium;
+$tab-text-color: $color-text-minor;
+$tab-active-color: $color-primary;
+$tab-disabled-color: $color-text-disabled;
+$tab-bg: $color-bg-base;
+$tab-height: 100rpx;
+$tab-ink-height: 3rpx;
+$tab-offset: $h-gap-sl;
+$tab-item-gap: $h-gap-md;
+
+
+/// dialog
+$dialog-width : 606rpx;
+$dialog-radius: 12rpx;
+$dialog-body-padding : 52rpx;
+$dialog-title-font-size : 40rpx;
+$dialog-title-color : $color-text-base;
+$dialog-text-font-size : $font-body-large;
+$dialog-action-font-weight : $font-weight-medium;
+$dialog-text-color : $color-text-minor;
+$dialog-action-height : 100rpx;
+$dialog-action-font-size : $font-caption-large;
+$dialog-action-border-color : $color-border-base;
+$dialog-close-color : $color-text-caption;
+$dialog-action-highlight-color : $color-primary;
+$dialog-icon-size : 100rpx;
+$dialog-icon-fill : $color-text-caption;
+$dialog-zindex : 1500;
