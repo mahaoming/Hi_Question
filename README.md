@@ -1,6 +1,6 @@
 # 新拟物 答题小程序
 
-## 介绍
+## 📑 介绍
 
 - 新拟物风格
 - 主要面向答题,考研,测试,排行
@@ -14,23 +14,34 @@
 
 ![小程序图片]
 
-## 软件架构
+## 💡 软件架构
 
 - 后端: 知晓云(https://cloud.minapp.com/)
 - 前端: uni-app(https://uniapp.dcloud.io/)
 
-## 应用截图
+## 🕹 应用截图
 
-## 安装教程
+| 功能         | 对应界面                                                       |
+| ------------ | -------------------------------------------------------------- |
+| 首页         | ![首页](https://i1.100024.xyz/i/2020/06/23/ziyv92.png)         |
+| 选择目标     | ![选择目标](https://i1.100024.xyz/i/2020/06/23/ziwyxc.gif)     |
+| 选择课程分类 | ![选择课程分类](https://i1.100024.xyz/i/2020/06/23/zix9ri.png) |
+| 答题页面     | ![答题页面](https://i1.100024.xyz/i/2020/06/23/zixv58.png)     |
+| 排行榜       | ![排行榜](https://i1.100024.xyz/i/2020/06/23/ziy1fq.png)       |
+| 收藏列表为空 | ![收藏列表为空](https://i1.100024.xyz/i/2020/06/23/ziyglf.png) |
+
+## 🚀 安装教程
+
+### 应用注册
 
 1. 先注册[微信小程序](https://mp.weixin.qq.com/), 将项目中 src/manifest.json 的 appid 更改自己的 appid(在[微信后台](https://mp.weixin.qq.com/)开发/开发设置中)
 2. 在[知晓云](https://cloud.minapp.com/dashboard)注册账号后, 按指引流程接入后获取 key, 替换项目 App.vue 中 wx.BaaS.init("xxxxxxxxxxxxx")的位置;
    > 为什么没有用云开发, 单纯是因为知晓云的后台操作起来方便些, 当然个人觉得目前云开发功能在微信小程序上是比知晓云强大
 3. 导入数据结构即可如下图操作
 
-## 使用说明
+### 安装环境
 
-### 第一步: node 安装
+#### 第一步: node 安装
 
 > 用于编译 javascript 代码
 > [node 安装地址](https://nodejs.org/zh-cn/download/)
@@ -39,17 +50,17 @@
 > > - mac 选择 pkg
 > >   > 一键安装环境啥的最适合我了
 
-### 第二步: 执行编译命令
+#### 第二步: 执行编译命令
 
 > 在项目目录下执行
 >
 > > `npm install -g @vue/cli & npm run dev:mp-weixin`
 
-## 懒人模式
+## 🧰 懒人模式
 
 > 这个就是让小桃帮你部署, 给她买条裙子 👗 的费用部署(199), 当然如果后面有新版本更新的话也有优先推送, 有少量需求也可以满足下.
 
-![名片](https://gitee.com/github-31064550/Hi_Question/blob/master/screenshots/image6.png)
+![名片](https://i1.100024.xyz/i/2020/06/23/zix5fr.png)
 
 ## 最后
 
