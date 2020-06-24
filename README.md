@@ -36,7 +36,7 @@
 ### 应用注册
 
 1. 先注册[微信小程序](https://mp.weixin.qq.com/), 将项目中 src/manifest.json 的 appid 更改自己的 appid(在[微信后台](https://mp.weixin.qq.com/)开发/开发设置中)
-2. 在[知晓云](https://cloud.minapp.com/dashboard)注册账号后, 按指引流程接入后获取 key, 替换项目 App.vue 中 wx.BaaS.init("xxxxxxxxxxxxx")的位置;
+2. 在[知晓云](https://cloud.minapp.com/dashboard)注册账号后, 按指引流程接入后获取 key, 替换项目 App.vue 中 wx.BaaS.init("xxxxxxxxxxxxx")[位置](https://i1.100024.xyz/i/2020/06/24/fna10y.png)!;
    > 为什么没有用云开发, 单纯是因为知晓云的后台操作起来方便些, 当然个人觉得目前云开发功能在微信小程序上是比知晓云强大
 3. [导入](https://i1.100024.xyz/i/2020/06/24/fhdtwz.jpg) data/structure 内的 json 文件 生成[数据结构](https://i1.100024.xyz/i/2020/06/24/fhdps9.jpg)(点击可以看操作图片哦!)
 4. (可选) 可导入 data/mock 内的 json 文件作为初始数据[导入 mock 数据](https://i1.100024.xyz/i/2020/06/24/fhe41h.png)
