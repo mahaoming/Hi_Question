@@ -1,0 +1,70 @@
+{
+    "fields": ["target", "created_at", "updated_at", "created_by", "id", "_read_perm", "_write_perm"],
+    "data": [{
+        "target": {
+            "id": "5e8c1a47879ecd3627c3cdfa",
+            "_table": "target_year"
+        },
+        "created_at": 1586398137,
+        "updated_at": 1586424987,
+        "created_by": 163538149282476,
+        "id": "5e8e83b9a0301d45db13eec1",
+        "_read_perm": ["user:163538149282476"],
+        "_write_perm": ["user:163538149282476"]
+    }, {
+        "target": {
+            "id": "5e8c1a23879ecd3627c3cdef",
+            "_table": "target_year"
+        },
+        "created_at": 1586398846,
+        "updated_at": 1586398846,
+        "created_by": 163986833569155,
+        "id": "5e8e867e2138a52fca8999be",
+        "_read_perm": ["user:163986833569155"],
+        "_write_perm": ["user:163986833569155"]
+    }, {
+        "target": {
+            "id": "5e8c1a23879ecd3627c3cdef",
+            "_table": "target_year"
+        },
+        "created_at": 1586399219,
+        "updated_at": 1586399219,
+        "created_by": 164242813712354,
+        "id": "5e8e87f32138a52fca899a33",
+        "_read_perm": ["user:164242813712354"],
+        "_write_perm": ["user:164242813712354"]
+    }, {
+        "target": {
+            "id": "5e8c1a23879ecd3627c3cdef",
+            "_table": "target_year"
+        },
+        "created_at": 1586399545,
+        "updated_at": 1586399545,
+        "created_by": 164244215244071,
+        "id": "5e8e8939a0301d082b13ebe0",
+        "_read_perm": ["user:164244215244071"],
+        "_write_perm": ["user:164244215244071"]
+    }, {
+        "target": {
+            "id": "5e8c1a23879ecd3627c3cdef",
+            "_table": "target_year"
+        },
+        "created_at": 1586415615,
+        "updated_at": 1586415615,
+        "created_by": 164310206051814,
+        "id": "5e8ec7ff2138a55d396c1a27",
+        "_read_perm": ["user:164310206051814"],
+        "_write_perm": ["user:164310206051814"]
+    }, {
+        "target": {
+            "id": "5e8c1a23879ecd3627c3cdef",
+            "_table": "target_year"
+        },
+        "created_at": 1587136025,
+        "updated_at": 1587642671,
+        "created_by": 167257352987036,
+        "id": "5e99c6193f6cd56102b4a825",
+        "_read_perm": ["user:167257352987036"],
+        "_write_perm": ["user:167257352987036"]
+    }]
+}

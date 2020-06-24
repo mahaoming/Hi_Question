@@ -1,0 +1,337 @@
+{
+    "fields": ["paper", "index", "rightOption", "contentOptions", "answer", "brief", "isShowBrief", "content", "created_at", "updated_at", "created_by", "id", "_read_perm", "_write_perm"],
+    "data": [{
+        "paper": {
+            "id": "5e8c286260ecde125828b0b3",
+            "_table": "question_paper"
+        },
+        "index": 1,
+        "rightOption": 1.0,
+        "contentOptions": [{
+            "content": "A。物质和意识何者为第一性",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B。物质和意识是否具有同一性",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C。物质和意识何者更为重要",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D。物质和意识何者与社会生活的关系更密切",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": "123123123",
+        "brief": null,
+        "isShowBrief": false,
+        "content": {
+            "content": "(2009 年第 1 题）物质和意识的对立只有在非常有限的范围内才有绝对的意义，超过这个范围便是相对的了。这个范围是指",
+            "type": "text"
+        },
+        "created_at": 1586249556,
+        "updated_at": 1586414173,
+        "created_by": 40141173,
+        "id": "5e8c3f54fe35c4193212f348",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8c286260ecde125828b0b3",
+            "_table": "question_paper"
+        },
+        "index": 2,
+        "rightOption": 2.0,
+        "contentOptions": [{
+            "content": "A。精神是第一性的，物质是第二性的",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B。精神的力量可以变成物质的力量",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C。精神的力量可以代替物质的力量",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D。先有精神，后有物质",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": "12312312312333333333333333333333333333333333333",
+        "brief": null,
+        "isShowBrief": false,
+        "content": {
+            "content": "(2005 年第 1 题）广大农民在致富奔小康的过程中深切体会到：“要富口袋，先富脑袋。”这说法在哲学上的含义是",
+            "type": "text"
+        },
+        "created_at": 1586249587,
+        "updated_at": 1586414167,
+        "created_by": 40141173,
+        "id": "5e8c3f73fe35c4122712f32e",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8c286260ecde125828b0b3",
+            "_table": "question_paper"
+        },
+        "index": 3,
+        "rightOption": 3.0,
+        "contentOptions": [{
+            "content": "A。变是世界的本原",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B。世界上只有变，没有不变 ",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C。变是绝对的，不变是相对的",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D。变与不变是绝对对立的",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": "12313123",
+        "brief": null,
+        "isShowBrief": false,
+        "content": {
+            "content": "(2006 年第 1 题）世界上唯一不变的是变。这一论断的含义是",
+            "type": "text"
+        },
+        "created_at": 1586249622,
+        "updated_at": 1586414161,
+        "created_by": 40141173,
+        "id": "5e8c3f96fe35c4122712f331",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "index": 1,
+        "rightOption": 1.0,
+        "contentOptions": [{
+            "content": "A. Digital products",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B. User information ",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C. Physical assets ",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D. Quality service",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": "1",
+        "brief": "<h1 style=\"text-align: center;\">​Text 1</h1><p><span style=\"font-size: 18px;\">&nbsp;&nbsp;&nbsp;&nbsp;​The power and ambition of the giants of the digital economy is astonishing Amazon has just announced the purchase of the upmarket grocery chain Whole Foods for S 13.5 bn, but two years ago Facebook paid even more than that to acquire the Whatsapp messaging service, which doesn't have any physical product at all. What Whatsapp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives</span></p><p><span style=\"font-size: 18px;\">&nbsp;&nbsp;&nbsp;&nbsp;Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still\ncould be. What political journalist, what party whip, would not want to know the make up of the Whatsapp groups in which Theresa May's enemies are currently lotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.</span></p><p><span style=\"font-size: 18px;\">&nbsp;&nbsp;&nbsp;&nbsp;Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of change within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as </span><span style=\"font-size: 18px;\">presently interpreted deals with financial disadvantage to consumers and this </span><span style=\"font-size: 18px;\">is not obvious when the users of these services don t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them- and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies</span></p><p><br></p><p><span style=\"font-size: 18px;\">&nbsp;&nbsp;&nbsp;&nbsp;The product they're selling is data, and we, the users, convert our lives to data or the benefit of the digital giants. Just as some ants farm the bugs called aphids </span><span style=\"font-size: 18px;\">for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn, t feel like a human or democratic relationship, even if both sides benefit.</span></p><p><br></p>",
+        "isShowBrief": true,
+        "content": {
+            "content": "According to Paragraph 1, Facebook acquired Whatsapp for its",
+            "type": "text"
+        },
+        "created_at": 1586402122,
+        "updated_at": 1586419923,
+        "created_by": 40141173,
+        "id": "5e8e934a2138a510af6c181c",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "index": 2,
+        "rightOption": 1.0,
+        "contentOptions": [{
+            "content": "A. Worsen political disputes",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B. Mess up customer records",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C. Pose a risk to Facebook users",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D. Mislead the European commission",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": "22",
+        "brief": "<p>The power and ambition of the giants of the digital economy is astonishing Amazon has just announced the purchase of the upmarket grocery chain Whole\nFoods for S 13.5 bn, but two years ago Facebook paid even more than that to acquire the Whatsapp messaging service, which doesn't have any physical product at all. What Whatsapp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives\n&nbsp;&nbsp;&nbsp;&nbsp;​Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still\ncould be. What political journalist, what party whip, would not want to know the\nmakeup of the Whatsapp groups in which Theresa May's enemies are currently lotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n&nbsp;&nbsp;&nbsp;&nbsp;​Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of\nchange within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as</p><p><span>presently interpreted deals with financial disadvantage to consumers and this</span></p><p>is not obvious when the users of these services don t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them- and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies</p><p>&nbsp;&nbsp;&nbsp;&nbsp;​The product they're selling is data, and we, the users, convert our lives to data or the benefit of the digital giants. Just as some ants farm the bugs called aphids<br></p><p>for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn, t feel like a human or democratic relationship, even if both sides benefit.<br></p><p><br></p>",
+        "isShowBrief": false,
+        "content": {
+            "content": "Linking phone numbers to Facebook identities may",
+            "type": "text"
+        },
+        "created_at": 1586404284,
+        "updated_at": 1586414128,
+        "created_by": 40141173,
+        "id": "5e8e9bbc2138a5257089977c",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "index": 3,
+        "rightOption": 1.0,
+        "contentOptions": [{
+            "content": "A. Digital products",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B. May worsen the economic imbalance",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C. Should not provide just one legal solution",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D cannot keep pace with the changing market",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": null,
+        "brief": "<p>The power and ambition of the giants of the digital economy is astonishing Amazon has just announced the purchase of the upmarket grocery chain Whole\nFoods for S 13.5 bn, but two years ago Facebook paid even more than that to acquire the Whatsapp messaging service, which doesn't have any physical product at all. What Whatsapp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives\n&nbsp;&nbsp;&nbsp;&nbsp;​Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still\ncould be. What political journalist, what party whip, would not want to know the\nmakeup of the Whatsapp groups in which Theresa May's enemies are currently lotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n&nbsp;&nbsp;&nbsp;&nbsp;​Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of\nchange within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as</p><p><span>presently interpreted deals with financial disadvantage to consumers and this</span></p><p>is not obvious when the users of these services don t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them- and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies</p><p>&nbsp;&nbsp;&nbsp;&nbsp;​The product they're selling is data, and we, the users, convert our lives to data or the benefit of the digital giants. Just as some ants farm the bugs called aphids<br></p><p>for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn, t feel like a human or democratic relationship, even if both sides benefit.<br></p><p><br></p>",
+        "isShowBrief": false,
+        "content": {
+            "content": "According to the author, competition law",
+            "type": "text"
+        },
+        "created_at": 1586405500,
+        "updated_at": 1586413801,
+        "created_by": 40141173,
+        "id": "5e8ea07ca0301d53b013f3b1",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "index": 4,
+        "rightOption": 2.0,
+        "contentOptions": [{
+            "content": "A. They are not de refined as customers",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B. They are not financially reliable",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C. the services are generally digital",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D. The services are paid for by advertisers",
+            "label": "A",
+            "type": "text"
+        }],
+        "answer": null,
+        "brief": "<p>The power and ambition of the giants of the digital economy is astonishing Amazon has just announced the purchase of the upmarket grocery chain Whole\nFoods for S 13.5 bn, but two years ago Facebook paid even more than that to acquire the Whatsapp messaging service, which doesn't have any physical product at all. What Whatsapp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives\n&nbsp;&nbsp;&nbsp;&nbsp;​Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still\ncould be. What political journalist, what party whip, would not want to know the\nmakeup of the Whatsapp groups in which Theresa May's enemies are currently lotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n&nbsp;&nbsp;&nbsp;&nbsp;​Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of\nchange within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as</p><p><span>presently interpreted deals with financial disadvantage to consumers and this</span></p><p>is not obvious when the users of these services don t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them- and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies</p><p>&nbsp;&nbsp;&nbsp;&nbsp;​The product they're selling is data, and we, the users, convert our lives to data or the benefit of the digital giants. Just as some ants farm the bugs called aphids<br></p><p>for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn, t feel like a human or democratic relationship, even if both sides benefit.<br></p><p><br></p>",
+        "isShowBrief": false,
+        "content": {
+            "content": "Competition law as presently interpreted can hardly protect Facebook users",
+            "type": "text"
+        },
+        "created_at": 1586405621,
+        "updated_at": 1586413790,
+        "created_by": 40141173,
+        "id": "5e8ea0f5a0301d46eb0f3abd",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "index": 5,
+        "rightOption": 2.0,
+        "contentOptions": [{
+            "content": "A. win-win business model between digital giants",
+            "label": "A",
+            "type": "text"
+        }, {
+            "content": "B. a typical competition pattern among digital giants",
+            "label": "B",
+            "type": "text"
+        }, {
+            "content": "C. The benefits provided for digital giants customers ",
+            "label": "C",
+            "type": "text"
+        }, {
+            "content": "D. The relationship between digital giants ane Id their userss",
+            "label": "D",
+            "type": "text"
+        }],
+        "answer": null,
+        "brief": "<p>The power and ambition of the giants of the digital economy is astonishing Amazon has just announced the purchase of the upmarket grocery chain Whole\nFoods for S 13.5 bn, but two years ago Facebook paid even more than that to acquire the Whatsapp messaging service, which doesn't have any physical product at all. What Whatsapp offered Facebook was an intricate and finely detailed web of its users' friendships and social lives\n&nbsp;&nbsp;&nbsp;&nbsp;​Facebook promised the European commission then that it would not link phone numbers to Facebook identities, but it broke the promise almost as soon as the deal went through. Even without knowing what was in the messages, the knowledge of who sent them and to whom was enormously revealing and still\ncould be. What political journalist, what party whip, would not want to know the\nmakeup of the Whatsapp groups in which Theresa May's enemies are currently lotting? It may be that the value of Whole Foods to Amazon is not so much the 460 shops it owns, but the records of which customers have purchased what.\n&nbsp;&nbsp;&nbsp;&nbsp;​Competition law appears to be the only way to address these imbalances of power. But it is clumsy. For one thing, it is very slow compared to the pace of\nchange within the digital economy. By the time a problem has been addressed and remedied it may have vanished in the marketplace, to be replaced by new abuses of power. But there is a deeper conceptual problem, too. Competition law as</p><p><span>presently interpreted deals with financial disadvantage to consumers and this</span></p><p>is not obvious when the users of these services don t pay for them. The users of their services are not their customers. That would be the people who buy advertising from them- and Facebook and Google, the two virtual giants, dominate digital advertising to the disadvantage of all other media and entertainment companies</p><p>&nbsp;&nbsp;&nbsp;&nbsp;​The product they're selling is data, and we, the users, convert our lives to data or the benefit of the digital giants. Just as some ants farm the bugs called aphids<br></p><p>for the honeydew they produce when they feed, so Google farms us for the data that our digital lives yield. Ants keep predatory insects away from where their aphids feed; Gmail keeps the spammers out of our inboxes. It doesn, t feel like a human or democratic relationship, even if both sides benefit.<br></p><p><br></p>",
+        "isShowBrief": false,
+        "content": {
+            "type": "text",
+            "content": "The ants analogy is used to illustrate"
+        },
+        "created_at": 1586409168,
+        "updated_at": 1586413775,
+        "created_by": 40141173,
+        "id": "5e8eaed02138a567e86c1d91",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "paper": {
+            "id": "5e8c285a7c7226123d0e8690",
+            "_table": "question_paper"
+        },
+        "index": 1,
+        "rightOption": 2.0,
+        "contentOptions": [{
+            "content": "https://cloud-minapp-34386.cloud.ifanrusercontent.com/2018_math_02_a.png",
+            "label": "A",
+            "type": "image"
+        }, {
+            "content": "https://cloud-minapp-34386.cloud.ifanrusercontent.com/2018_math_02_b.png",
+            "label": "B",
+            "type": "image"
+        }, {
+            "content": "https://cloud-minapp-34386.cloud.ifanrusercontent.com/2018_math_02_c.png",
+            "label": "C",
+            "type": "image"
+        }, {
+            "content": "https://cloud-minapp-34386.cloud.ifanrusercontent.com/2018_math_02_d.png",
+            "label": "D",
+            "type": "image"
+        }],
+        "answer": "2323",
+        "brief": null,
+        "isShowBrief": false,
+        "content": {
+            "content": "https://cloud-minapp-34386.cloud.ifanrusercontent.com/2018_math_02.png",
+            "type": "image"
+        },
+        "created_at": 1586415314,
+        "updated_at": 1586419366,
+        "created_by": 40141173,
+        "id": "5e8ec6d2a0301d1c2413ee01",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }]
+}

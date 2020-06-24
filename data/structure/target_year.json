@@ -1,0 +1,63 @@
+{
+  "name": "target_year",
+  "description": "考研时间管理",
+  "row_read_perm": [
+    "user:anonymous"
+  ],
+  "row_write_perm": [],
+  "write_perm": [
+    "user:anonymous"
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "id",
+        "description": "id"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "detailDate",
+        "type": "date",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": ""
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "year",
+        "type": "string",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": ""
+      },
+      {
+        "name": "created_by",
+        "type": "integer",
+        "description": "created_by"
+      },
+      {
+        "name": "created_at",
+        "type": "integer",
+        "description": "created_at"
+      },
+      {
+        "name": "updated_at",
+        "type": "integer",
+        "description": "updated_at"
+      }
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "name": "question",
+  "description": "题目",
+  "row_read_perm": [
+    "user:anonymous"
+  ],
+  "row_write_perm": [
+    "user:anonymous"
+  ],
+  "write_perm": [
+    "user:*"
+  ],
+  "schema": {
+    "fields": [
+      {
+        "name": "id",
+        "type": "id",
+        "description": "id"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "paper",
+        "type": "reference",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "",
+        "schema_name": "question_paper"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "index",
+        "type": "integer",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "顺序"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "rightOption",
+        "type": "number",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "正确选项(从0开始计数)"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "contentOptions",
+        "type": "array",
+        "items": {
+          "type": "object"
+        },
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": ""
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "answer",
+        "type": "string",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "解答"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "brief",
+        "type": "string",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "题干"
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "isShowBrief",
+        "type": "boolean",
+        "default": false,
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": ""
+      },
+      {
+        "acl": {
+          "clientVisible": true,
+          "clientReadOnly": false,
+          "creatorVisible": false
+        },
+        "name": "content",
+        "type": "object",
+        "constraints": {
+          "rules": [],
+          "required": false
+        },
+        "description": "选项"
+      },
+      {
+        "name": "created_by",
+        "type": "integer",
+        "description": "created_by"
+      },
+      {
+        "name": "created_at",
+        "type": "integer",
+        "description": "created_at"
+      },
+      {
+        "name": "updated_at",
+        "type": "integer",
+        "description": "updated_at"
+      }
+    ]
+  }
+}

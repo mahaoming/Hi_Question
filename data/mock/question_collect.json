@@ -1,0 +1,84 @@
+{
+    "fields": ["paper", "question", "isDelete", "created_at", "updated_at", "created_by", "id", "_read_perm", "_write_perm"],
+    "data": [{
+        "paper": {
+            "id": "5e8c285a7c7226123d0e8690",
+            "_table": "question_paper"
+        },
+        "question": {
+            "id": "5e8c3f54fe35c4193212f348",
+            "_table": "question"
+        },
+        "isDelete": 1.0,
+        "created_at": 1586398879,
+        "updated_at": 1586398879,
+        "created_by": 163986833569155,
+        "id": "5e8e869fa0301d45db13f3e5",
+        "_read_perm": ["user:163986833569155"],
+        "_write_perm": ["user:163986833569155"]
+    }, {
+        "paper": {
+            "id": "5e8c285a7c7226123d0e8690",
+            "_table": "question_paper"
+        },
+        "question": {
+            "id": "5e8c3f54fe35c4193212f348",
+            "_table": "question"
+        },
+        "isDelete": 1.0,
+        "created_at": 1586399622,
+        "updated_at": 1586399622,
+        "created_by": 164244215244071,
+        "id": "5e8e8986a0301d756e0f3bf3",
+        "_read_perm": ["user:164244215244071"],
+        "_write_perm": ["user:164244215244071"]
+    }, {
+        "paper": {
+            "id": "5e8e8cd02138a56d70899750",
+            "_table": "question_paper"
+        },
+        "question": {
+            "id": "5e8e934a2138a510af6c181c",
+            "_table": "question"
+        },
+        "isDelete": 1.0,
+        "created_at": 1587137173,
+        "updated_at": 1587137173,
+        "created_by": 163538149282476,
+        "id": "5e99ca953f6cd56102b4aa24",
+        "_read_perm": ["user:163538149282476"],
+        "_write_perm": ["user:163538149282476"]
+    }, {
+        "paper": {
+            "id": "5e8c285a7c7226123d0e8690",
+            "_table": "question_paper"
+        },
+        "question": {
+            "id": "5e8ec6d2a0301d1c2413ee01",
+            "_table": "question"
+        },
+        "isDelete": 1.0,
+        "created_at": 1587873218,
+        "updated_at": 1587873218,
+        "created_by": 163538149282476,
+        "id": "5ea505c293ae6c71fa2f4194",
+        "_read_perm": ["user:163538149282476"],
+        "_write_perm": ["user:163538149282476"]
+    }, {
+        "paper": {
+            "id": "5e8c286260ecde125828b0b3",
+            "_table": "question_paper"
+        },
+        "question": {
+            "id": "5e8c3f54fe35c4193212f348",
+            "_table": "question"
+        },
+        "isDelete": 1.0,
+        "created_at": 1588036805,
+        "updated_at": 1588036805,
+        "created_by": 167257352987036,
+        "id": "5ea784c55c1a3c2f66e71cf6",
+        "_read_perm": ["user:167257352987036"],
+        "_write_perm": ["user:167257352987036"]
+    }]
+}

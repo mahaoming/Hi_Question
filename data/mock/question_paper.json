@@ -1,0 +1,64 @@
+{
+    "fields": ["tags", "title", "subject", "cate", "year", "created_at", "updated_at", "created_by", "id", "_read_perm", "_write_perm"],
+    "data": [{
+        "tags": ["真题", "小盆考研"],
+        "title": "2018考研数学三",
+        "subject": "数学",
+        "cate": "真题集训",
+        "year": "2018",
+        "created_at": 1586243674,
+        "updated_at": 1586400251,
+        "created_by": 40141173,
+        "id": "5e8c285a7c7226123d0e8690",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "tags": ["徐涛", "真题版"],
+        "title": "徐涛优题库",
+        "subject": "政治",
+        "cate": "真题集训",
+        "year": "2020",
+        "created_at": 1586243682,
+        "updated_at": 1586400705,
+        "created_by": 40141173,
+        "id": "5e8c286260ecde125828b0b3",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "tags": ["真题", "小盆考研"],
+        "title": "2017考研数学三",
+        "subject": "数学",
+        "cate": "真题集训",
+        "year": "2017",
+        "created_at": 1586400232,
+        "updated_at": 1586400232,
+        "created_by": 40141173,
+        "id": "5e8e8be82138a557b28998d4",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "tags": ["真题", "张剑"],
+        "title": "张剑历年真题",
+        "subject": "英语",
+        "cate": "真题集训",
+        "year": "2017",
+        "created_at": 1586400464,
+        "updated_at": 1586400464,
+        "created_by": 40141173,
+        "id": "5e8e8cd02138a56d70899750",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }, {
+        "tags": ["测试"],
+        "title": "测试",
+        "subject": "数学",
+        "cate": "模拟训练",
+        "year": "2002",
+        "created_at": 1587138659,
+        "updated_at": 1587138665,
+        "created_by": 40141173,
+        "id": "5e99d0693f6cd57d1bb4aa28",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": ["user:anonymous"]
+    }]
+}

@@ -1,0 +1,22 @@
+{
+    "fields": ["detailDate", "year", "created_at", "updated_at", "created_by", "id", "_read_perm", "_write_perm"],
+    "data": [{
+        "detailDate": "2020-12-21T00:00:00.225000+08:00",
+        "year": "2020",
+        "created_at": 1586240035,
+        "updated_at": 1586240082,
+        "created_by": 40141173,
+        "id": "5e8c1a23879ecd3627c3cdef",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": []
+    }, {
+        "detailDate": "2021-12-25T00:00:00.350000+08:00",
+        "year": "2021",
+        "created_at": 1586240071,
+        "updated_at": 1586240071,
+        "created_by": 40141173,
+        "id": "5e8c1a47879ecd3627c3cdfa",
+        "_read_perm": ["user:anonymous"],
+        "_write_perm": []
+    }]
+}
