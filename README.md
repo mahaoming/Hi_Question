@@ -62,7 +62,7 @@
 
 > 这个就是让小桃帮你部署, 给她买条裙子 👗 的费用部署(199), 当然如果后面有新版本更新的话也有优先推送, 有少量需求也可以满足下. 下面是小桃的微信 👇
 
-![名片]](http://cdn.sunway.xyz/uPic/image6.png)
+![名片](http://cdn.sunway.xyz/uPic/image6.png)
 
 ## ❤️ 最后
 
