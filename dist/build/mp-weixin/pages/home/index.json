@@ -1,6 +1,0 @@
-{
-  "usingComponents": {
-    "sider-bar": "/components/SiderBar/SiderBar",
-    "paper-result": "/pages/home/components/PaperResult"
-  }
-}

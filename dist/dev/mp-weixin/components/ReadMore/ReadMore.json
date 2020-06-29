@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "hi-icon": "/components/Basic/Icon/index"
-  }
-}

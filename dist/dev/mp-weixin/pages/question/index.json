@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "jyf-parser": "/components/jyf-parser/jyf-parser",
-    "count-down": "/components/CountDown/CountDown",
-    "progress": "/components/Progress/Progress",
-    "question-list": "/pages/question/components/QuestionList"
-  }
-}

@@ -1,1 +1,0 @@
-<block wx:if="{{isShow}}"><view data-event-opts="{{[['tap',[['change',['$event']]]]]}}" class="{{[animation.enter,animation.active,animation.leave]}}" style="{{(stylesObject)}}" bindtap="__e"><slot></slot></view></block>

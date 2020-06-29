@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "sider-icon": "/components/SiderBar/SiderIcon"
-  }
-}

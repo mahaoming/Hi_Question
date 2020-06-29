@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack:///./src/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;;;AAAA;;AAEA;;AACA;;;;AACAA,UAAU,CAACC,gBAAD,CAAV,C","file":"pages/club/members.js","sourcesContent":["import 'uni-pages';\n\nimport Vue from 'vue'            \nimport Page from './pages/club/members.vue'\ncreatePage(Page)"],"sourceRoot":""}
