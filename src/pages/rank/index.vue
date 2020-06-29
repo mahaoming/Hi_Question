@@ -154,6 +154,7 @@ export default {
     grid-template-columns: 1fr 1fr 1fr;
     .avatar {
       text-align: center;
+      background-color: rgba(0, 0, 0, 0);
       image {
         margin: 0 auto;
         margin-bottom: 30rpx;
@@ -167,19 +168,18 @@ export default {
       }
     }
     .topitem {
-      border-radius: 30rpx 30rpx 0 0;
-
-      background: #e0e5ec;
-
       align-self: end;
+      background-color: rgba(0, 0, 0, 0);
       .content {
         display: flex;
+        border-radius: 25rpx 25rpx 0 0;
 
         padding: 30rpx;
 
         align-items: center;
         flex-direction: column;
         .correct {
+          background: #e0e5ec;
           margin-right: 4rpx;
           margin-bottom: 4rpx;
 
@@ -197,8 +197,7 @@ export default {
         order: 2;
         .content {
           height: 340rpx;
-
-          box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+          box-shadow: -6px 6px 12px #caced4, 6px -6px 12px #f6fcff;
         }
       }
       &:nth-child(2) {
@@ -206,8 +205,7 @@ export default {
         order: 1;
         .content {
           height: 260rpx;
-
-          box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+          box-shadow: -6px 6px 12px #caced4, 6px -6px 12px #f6fcff;
         }
       }
       &:nth-child(3) {
@@ -215,8 +213,7 @@ export default {
         order: 3;
         .content {
           height: 220rpx;
-
-          box-shadow: 5px 5px 10px #bec3c9, -5px -5px 10px #ffffff;
+          box-shadow: -6px 6px 12px #caced4, 6px -6px 12px #f6fcff;
         }
       }
     }
@@ -232,7 +229,7 @@ export default {
 
       background: #e0e5ec;
 
-      box-shadow: 10px 10px 20px #bec3c9, -10px -10px 20px #ffffff;
+      box-shadow: -6px 6px 12px #b8bcc2, 6px -6px 12px #ffffff;
 
       align-items: center;
       justify-content: space-between;
