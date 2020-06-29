@@ -34,16 +34,16 @@
       <view class="bottom-rank">
         <view
           class="rank-item"
-          :key="index"
-          v-for="(rankItem, index) of subRankList"
+          :key="subIndex"
+          v-for="(subItem, subIndex) of subRankList"
         >
           <view>
-            <text class="ranking">{{ index + 4 }}</text>
-            <text class="name">{{ rankItem.userinfo.nickname }}</text>
+            <text class="ranking">{{ subIndex + 4 }}</text>
+            <text class="name">{{ subItem.userinfo.nickname }}</text>
           </view>
           <view>
-            <text class="correct">{{ rankItem.correct }} </text>
-            <text class="ratio">({{ rankItem.ratio }}%)</text>
+            <text class="correct">{{ subItem.ratio }}%</text>
+            <text class="ratio">({{ subItem.totalNum }})题</text>
           </view>
         </view>
       </view>
