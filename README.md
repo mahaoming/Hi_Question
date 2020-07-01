@@ -56,7 +56,9 @@
 
 > 在项目目录下执行
 >
-> > `npm install -g @vue/cli & npm run dev:mp-weixin`
+> > `npm install -g @vue/cli`  
+> > `npm install`  
+> > `npm run dev:mp-weixin`
 
 ## 🧰 懒人模式
 
