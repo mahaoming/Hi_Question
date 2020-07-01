@@ -14,11 +14,6 @@
 
 ![小程序图片](http://cdn.sunway.xyz/uPic/gh_854c604dd8f8_258.jpg)
 
-## 💡 软件架构
-
-- 后端: 知晓云(https://cloud.minapp.com/)
-- 前端: uni-app(https://uniapp.dcloud.io/)
-
 ## 🕹 应用截图
 
 | 功能                         | 对应界面                                               |
@@ -30,6 +25,11 @@
 | 选择课程分类                 | ![选择课程分类](http://cdn.sunway.xyz/uPic/image1.png) |
 | 排行榜                       | ![排行榜](http://cdn.sunway.xyz/uPic/image3.png)       |
 | 收藏列表为空                 | ![收藏列表为空](http://cdn.sunway.xyz/uPic/image4.png) |
+
+## 💡 软件架构
+
+- 后端: [知晓云](https://cloud.minapp.com/)
+- 前端: [uni-app](https://uniapp.dcloud.io/)
 
 ## 🚀 安装教程
 
